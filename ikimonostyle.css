@@ -1,0 +1,122 @@
+    /* GENERAL CSS */
+body {
+    background-color: #0f0f0f;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+    /* CLASSES */
+
+/* NAVIGATION BAR*/
+.NavBar {
+    height: 100px;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.NavBar li {
+    display: inline;
+    float: left;
+
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 10%;
+    height: 100px;
+}
+
+.NavBar li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+  }
+
+    /* Colors for hovering*/
+.active {
+    background-color: #4f4f4f;
+    /*background-image: linear-gradient(to bottom, rgba(79, 79, 79, 0), rgba(79, 79, 79, 1)*/
+}
+
+.home:hover {
+    /*background-color: rgba(90, 90, 90, 1);*/
+    background-image: linear-gradient(to bottom, rgba(90, 90, 90, 1), rgba(90, 90, 90, 0));
+}
+
+.yoyo:hover {
+    /*background-color: #D18FFF;*/
+    background-image: linear-gradient(to bottom, rgba(209, 143, 255, 1), rgba(209, 143, 255, 0));
+}
+
+.blog:hover {
+    /*background-color: #FFA8EB;*/
+    background-image: linear-gradient(to bottom, rgba(255, 168, 235, 1), rgba(255, 168, 235, 0));
+}
+
+.about:hover {
+    /*background-color: #FFB3B8;*/
+    background-image: linear-gradient(to bottom, rgba(255, 179, 184, 1), rgba(255, 179, 184, 0));
+}
+
+.contact:hover {
+    /*background-color: #B8FFCF;*/
+    background-image: linear-gradient(to bottom, rgba(184, 255, 207, 1), rgba(184, 255, 207, 0));
+}
+
+.shop:hover {
+    background-image: linear-gradient(to bottom, rgba(25, 189, 230, 1), rgba(25, 189, 230, 0));
+}
+.icon {
+    width: 25%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.logo {
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+/* TOP SECTION */
+.TopSection {
+    margin-top: 100px;
+}
+
+/* INDEX CSS */
+.Index {
+    background-image: url("A7209969.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.aboutBody {
+    background-image: url("logo_text_color_dark.png");
+    background-size: cover;
+    margin: 0;
+}
+
+.contactBody {
+    background-image: url("logo_text_color.png");
+    background-size: cover;
+    margin: 0;
+}
