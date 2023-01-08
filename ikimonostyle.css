@@ -46,7 +46,7 @@ h1 {
 
 .NavBar li a {
     display: block;
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:aliceblue;
@@ -55,36 +55,52 @@ h1 {
     /* Colors for hovering*/
 .active {
     background-color: #4f4f4f;
-    /*background-image: linear-gradient(to bottom, rgba(79, 79, 79, 0), rgba(79, 79, 79, 1)*/
 }
 
 .home:hover {
     /*background-color: rgba(90, 90, 90, 1);*/
     background-image: linear-gradient(to bottom, rgba(90, 90, 90, 1), rgba(90, 90, 90, 0));
+    transition-duration: 0.5s;
+    opacity: 0.90;
+
 }
 
 .yoyo:hover {
     /*background-color: #D18FFF;*/
     background-image: linear-gradient(to bottom, rgba(209, 143, 255, 1), rgba(209, 143, 255, 0));
+    transition-duration: 0.4s;
+    opacity: 0.90;
+
 }
 
 .blog:hover {
     /*background-color: #FFA8EB;*/
     background-image: linear-gradient(to bottom, rgba(255, 168, 235, 1), rgba(255, 168, 235, 0));
+    transition-duration: 0.4s;
+    opacity: 0.90;
+
 }
 
 .about:hover {
     /*background-color: #FFB3B8;*/
     background-image: linear-gradient(to bottom, rgba(255, 179, 184, 1), rgba(255, 179, 184, 0));
+    transition-duration: 0.4s;
+    opacity: 0.90;
+
+
 }
 
 .contact:hover {
     /*background-color: #B8FFCF;*/
     background-image: linear-gradient(to bottom, rgba(184, 255, 207, 1), rgba(184, 255, 207, 0));
+    transition-duration: 0.4s;
+    opacity: 0.90;
 }
 
 .shop:hover {
     background-image: linear-gradient(to bottom, rgba(181, 228, 213, 1), rgba(181, 228, 213, 0));
+    transition-duration: 0.4s;
+    opacity: 0.90;
 }
 .icon {
     width: 25%;
@@ -95,12 +111,29 @@ h1 {
 
 .logo {
     width: 80px;
-    margin-top: -20px;
+    margin-top: -30px;
     margin-left: 10px;
 }
 /* TOP SECTION */
 .TopSection {
     margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* FOOTER */
+.footer {
+    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(15, 15, 15, 1));
+    margin: 800px 0 0;
+    height: 100px;
+}
+
+.footerBlurb {
+    color: #8f8f8f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    padding-top: 45px;
 }
 
 /* INDEX CSS */
@@ -121,3 +154,39 @@ h1 {
     background-size: cover;
     margin: 0;
 }
+
+/* YOYO CSS*/
+.yoyoBody {
+    background-image: url("tomo_proto2_solo_martin.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+} 
+
+.tomoBlurb {
+    margin: 0px 25px;
+    padding: 10px;
+    color:aliceblue;
+    background-color: rgba(181, 228, 213, 0.25);
+    border-radius: 15px;
+}
+
+.tomoLogo {
+    width: 80%;
+    padding: 0 10% 25px;
+}
+div.yoyoGallery {
+    margin: 25px;
+    float: left;
+    width: 280px;
+
+    background-color: rgba(181, 228, 213, 0.25);
+    padding: 10px 30px;
+    border-radius: 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.yoyoGallery img {
+    width: 100%;
+    height: auto;
+  }
